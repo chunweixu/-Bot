@@ -1,0 +1,31 @@
+version: "3.1"
+
+nlu:
+- intent: request_menu
+  examples: |
+    - 请给我看看菜单
+    - 我想看看今天有什么菜
+    - 有什么推荐吗
+    - 可以给我菜单吗
+
+- intent: order_food
+  examples: |
+    - 我要点一份宫保鸡丁
+    - 来两份麻婆豆腐
+    - 点三份扬州炒饭
+    - 一份牛肉面，谢谢
+
+- intent: confirm_order
+  examples: |
+    - 确认订单
+    - 订单信息对吗
+    - 我可以确认一下我的订单吗
+    - 请确认我的订单
+
+- intent: provide_info
+  examples: |
+    - 请告诉我你们的营业时间
+    - 你们的招牌菜是什么
+    - 餐馆的位置在哪里
+    - 有哪些特色菜
+

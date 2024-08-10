@@ -1,0 +1,22 @@
+2024-08-10 11:13:21,160 INFO Received menu message: ninhao
+2024-08-10 11:14:54,932 INFO Received menu message: 我想点餐
+2024-08-10 11:16:22,922 INFO Received menu message: 我想点餐
+2024-08-10 11:16:44,542 INFO Received order message: 点一个牛肉面
+2024-08-10 11:16:45,555 INFO Received llm order response: {
+  "dish": "牛肉面",
+  "quantity": "一个",
+  "confidence": 1,
+  "reason": "用户明确指出了想点的菜品名称和数量"
+}
+2024-08-10 11:38:15,040 INFO Received order message: ninhao
+2024-08-10 11:38:15,651 INFO Received llm order response: 对不起，我不确定您的订单。请再说一遍？
+2024-08-10 11:38:26,761 INFO Received order message: 您好
+2024-08-10 11:38:27,270 INFO Received llm order response: 对不起，我不确定您的订单。请再说一遍？
+2024-08-10 11:39:00,054 INFO Received menu message: 你们有什么推荐的
+2024-08-10 11:39:25,752 INFO Received provide message: 你们营业到什么时候
+2024-08-10 11:39:40,149 INFO Received menu message: 我想点餐
+2024-08-10 11:39:56,677 INFO Received order message: 点个牛肉面
+2024-08-10 11:39:57,220 INFO Received llm order response: 用户选择的菜品名称是：牛肉面。
+2024-08-10 11:41:38,625 INFO Received provide message: 红烧肉
+2024-08-10 11:42:00,897 INFO Received menu message: 我想再点个红烧肉
+2024-08-10 11:42:37,163 INFO Received confirm message: 您好！感谢您完成订餐。看起来您点的菜品和数量都是 "None"。为了确保我们准确无误地处理您的订单，请再次确认您是否需要提供具体的菜品名称和数量。如果您已经确认了所有信息，请告诉我们，我们将尽快为您准备餐点。如果信息不完整或您无法确认订单，请回复"对不起，我无法确认您的订单信息。"。期待您的进一步指示！

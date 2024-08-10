@@ -1,0 +1,20 @@
+version: "3.1"
+
+stories:
+- story: user orders food
+  steps:
+  - intent: order_food
+  - action: action_order_food
+  - active_loop: null
+  - intent: confirm_order
+  - action: action_confirm_order
+
+- story: user requests menu
+  steps:
+  - intent: request_menu
+  - action: action_provide_menu
+
+- story: user asks for info
+  steps:
+  - intent: provide_info
+  - action: action_provide_info

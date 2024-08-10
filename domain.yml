@@ -1,0 +1,46 @@
+version: "3.1"
+
+intents:
+  - request_menu
+  - order_food
+  - confirm_order
+  - provide_info
+
+entities:
+  - dish
+  - quantity
+
+
+slots:
+  dish:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: dish
+
+  quantity:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: quantity
+
+responses:
+  utter_greet:
+    - text: "欢迎光临，请问需要点什么？"
+  utter_menu:
+    - text: "这是我们的菜单：\n{menu}"
+  utter_confirm_order:
+    - text: "您点的是{quantity}份{dish}，确认吗？"
+  utter_order_confirmed:
+    - text: "订单已确认！我们将尽快为您准备。"
+  utter_info:
+    - text: "{response}"
+
+actions:
+  - action_provide_menu
+  - action_order_food
+  - action_confirm_order
+  - action_provide_info
+  - action_recognize_intent
